@@ -71,7 +71,7 @@ Public Class Form1
             
             ' Hide login form and show dashboard
             Me.Hide()
-            dashboard.Show()
+            Dashboard.Show()
         Else
             MessageBox.Show("Invalid username or password. Please try again.", "Login Failed", MessageBoxButtons.OK, MessageBoxIcon.Error)
             Guna2TextBox2.Clear()

@@ -61,7 +61,7 @@ Partial Class Form1
         Me.Guna2ToggleSwitch1.CheckedState.InnerBorderColor = System.Drawing.Color.White
         Me.Guna2ToggleSwitch1.CheckedState.InnerColor = System.Drawing.Color.White
         Me.Guna2ToggleSwitch1.Location = New System.Drawing.Point(336, 266)
-        Me.Guna2ToggleSwitch1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Guna2ToggleSwitch1.Margin = New System.Windows.Forms.Padding(2)
         Me.Guna2ToggleSwitch1.Name = "Guna2ToggleSwitch1"
         Me.Guna2ToggleSwitch1.Size = New System.Drawing.Size(26, 16)
         Me.Guna2ToggleSwitch1.TabIndex = 2
@@ -97,7 +97,7 @@ Partial Class Form1
         Me.Guna2GradientButton1.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold)
         Me.Guna2GradientButton1.ForeColor = System.Drawing.Color.White
         Me.Guna2GradientButton1.Location = New System.Drawing.Point(335, 303)
-        Me.Guna2GradientButton1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Guna2GradientButton1.Margin = New System.Windows.Forms.Padding(2)
         Me.Guna2GradientButton1.Name = "Guna2GradientButton1"
         Me.Guna2GradientButton1.Size = New System.Drawing.Size(218, 43)
         Me.Guna2GradientButton1.TabIndex = 4
@@ -143,9 +143,9 @@ Partial Class Form1
         Me.Guna2Panel1.Controls.Add(Me.Guna2ControlBox1)
         Me.Guna2Panel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Guna2Panel1.Location = New System.Drawing.Point(0, 0)
-        Me.Guna2Panel1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Guna2Panel1.Margin = New System.Windows.Forms.Padding(2)
         Me.Guna2Panel1.Name = "Guna2Panel1"
-        Me.Guna2Panel1.Size = New System.Drawing.Size(621, 30)
+        Me.Guna2Panel1.Size = New System.Drawing.Size(607, 30)
         Me.Guna2Panel1.TabIndex = 6
         '
         'Guna2ControlBox2
@@ -154,8 +154,8 @@ Partial Class Form1
         Me.Guna2ControlBox2.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox
         Me.Guna2ControlBox2.FillColor = System.Drawing.Color.Transparent
         Me.Guna2ControlBox2.IconColor = System.Drawing.Color.DimGray
-        Me.Guna2ControlBox2.Location = New System.Drawing.Point(575, 7)
-        Me.Guna2ControlBox2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Guna2ControlBox2.Location = New System.Drawing.Point(561, 7)
+        Me.Guna2ControlBox2.Margin = New System.Windows.Forms.Padding(2)
         Me.Guna2ControlBox2.Name = "Guna2ControlBox2"
         Me.Guna2ControlBox2.Size = New System.Drawing.Size(16, 20)
         Me.Guna2ControlBox2.TabIndex = 0
@@ -165,8 +165,8 @@ Partial Class Form1
         Me.Guna2ControlBox1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Guna2ControlBox1.FillColor = System.Drawing.Color.Transparent
         Me.Guna2ControlBox1.IconColor = System.Drawing.Color.DimGray
-        Me.Guna2ControlBox1.Location = New System.Drawing.Point(593, 7)
-        Me.Guna2ControlBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Guna2ControlBox1.Location = New System.Drawing.Point(579, 7)
+        Me.Guna2ControlBox1.Margin = New System.Windows.Forms.Padding(2)
         Me.Guna2ControlBox1.Name = "Guna2ControlBox1"
         Me.Guna2ControlBox1.Size = New System.Drawing.Size(16, 20)
         Me.Guna2ControlBox1.TabIndex = 0
@@ -182,9 +182,9 @@ Partial Class Form1
         Me.Guna2PictureBox1.Image = Global.pewpew.My.Resources.Resources.download
         Me.Guna2PictureBox1.ImageRotate = 0!
         Me.Guna2PictureBox1.Location = New System.Drawing.Point(0, 0)
-        Me.Guna2PictureBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Guna2PictureBox1.Margin = New System.Windows.Forms.Padding(2)
         Me.Guna2PictureBox1.Name = "Guna2PictureBox1"
-        Me.Guna2PictureBox1.Size = New System.Drawing.Size(301, 429)
+        Me.Guna2PictureBox1.Size = New System.Drawing.Size(301, 442)
         Me.Guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.Guna2PictureBox1.TabIndex = 0
         Me.Guna2PictureBox1.TabStop = False
@@ -194,7 +194,7 @@ Partial Class Form1
         Me.Guna2PictureBox2.Image = Global.pewpew.My.Resources.Resources._314177953_103296959271785_2851711990030533219_n_removebg_preview
         Me.Guna2PictureBox2.ImageRotate = 0!
         Me.Guna2PictureBox2.Location = New System.Drawing.Point(416, 50)
-        Me.Guna2PictureBox2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Guna2PictureBox2.Margin = New System.Windows.Forms.Padding(2)
         Me.Guna2PictureBox2.Name = "Guna2PictureBox2"
         Me.Guna2PictureBox2.Size = New System.Drawing.Size(66, 72)
         Me.Guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -254,7 +254,7 @@ Partial Class Form1
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(238, Byte), Integer), CType(CType(234, Byte), Integer), CType(CType(233, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(621, 394)
+        Me.ClientSize = New System.Drawing.Size(607, 441)
         Me.Controls.Add(Me.Guna2PictureBox1)
         Me.Controls.Add(Me.Guna2Panel1)
         Me.Controls.Add(Me.Guna2PictureBox2)
@@ -266,7 +266,7 @@ Partial Class Form1
         Me.Controls.Add(Me.Guna2TextBox2)
         Me.Controls.Add(Me.Guna2TextBox1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "Form1"
         Me.Text = " "
         Me.Guna2Panel1.ResumeLayout(False)
