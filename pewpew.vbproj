@@ -187,16 +187,16 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="ReportsForm.Designer.vb">
+      <DependentUpon>ReportsForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReportsForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="ResidentForm.Designer.vb">
       <DependentUpon>ResidentForm.vb</DependentUpon>
     </Compile>
     <Compile Include="ResidentForm.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ResidentInfo.Designer.vb">
-      <DependentUpon>ResidentInfo.vb</DependentUpon>
-    </Compile>
-    <Compile Include="ResidentInfo.vb">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
@@ -213,11 +213,11 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="ReportsForm.resx">
+      <DependentUpon>ReportsForm.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ResidentForm.resx">
       <DependentUpon>ResidentForm.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ResidentInfo.resx">
-      <DependentUpon>ResidentInfo.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

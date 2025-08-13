@@ -8,6 +8,7 @@ Imports SkiaSharp
 Public Class Dashboard
     Private residentFormInstance As ResidentForm
     Private originalPanel2Content As Control() = {}
+    Private reportsFormInstance As ReportsForm
 
     Private Sub Dashboard_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         ' Store original content of Guna2Panel2
@@ -121,8 +122,25 @@ Public Class Dashboard
     End Sub
 
     Private Sub Guna2Button1_Click(sender As Object, e As EventArgs) Handles Guna2Button1.Click
-        ' Reports button - you can implement reports functionality here
-        MessageBox.Show("Reports functionality will be implemented here.", "Reports", MessageBoxButtons.OK, MessageBoxIcon.Information)
+
+        ' Hide Guna2Panel2 (gradientpanel2) content
+        Guna2Panel2.Visible = False
+
+        ' Clear Guna2Panel2 content
+        Guna2Panel2.Controls.Clear()
+
+        ' Create a new ResidentForm instance
+        reportsFormInstance = New ReportsForm()
+        reportsFormInstance.TopLevel = False
+        reportsFormInstance.FormBorderStyle = FormBorderStyle.None
+        reportsFormInstance.Dock = DockStyle.Fill
+
+        ' Add ResidentForm to Guna2Panel2
+        Guna2Panel2.Controls.Add(reportsFormInstance)
+        reportsFormInstance.Show()
+
+        ' Make Guna2Panel2 visible again with the new content
+        Guna2Panel2.Visible = True
     End Sub
 
     Private Sub Guna2Button4_Click(sender As Object, e As EventArgs) Handles Guna2Button4.Click
